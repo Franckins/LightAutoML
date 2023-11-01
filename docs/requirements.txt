@@ -5,3 +5,4 @@ sphinx-autodoc-typehints
 pandoc
 jupyter
 prompt-toolkit<3.0.0,!=3.0.1,>=2.0.0
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
